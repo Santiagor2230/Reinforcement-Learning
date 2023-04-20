@@ -2,7 +2,7 @@
 
 # Briefly explain the work that you did on this project: What code were you given? What code did you create yourself?
 
-On this project we use methods of Deep Q-learning in order for an agent which in this case is a pirate to find the most efficient way of reaching the treasure which in this case is the goal. The code that I was given is the environment, the agents movements and experience replay, the code that I had to create is the application of the neural network into Q-learning, the greedy-epsilon so that the agent is able to explore, the application of experience replay in order for the agent to predict the best possible action.
+On this project we use methods of Deep Q-learning in order for an agent which in this case is a pirate to find the most efficient way of reaching the treasure which in this case is the goal. The code that I was given is the environment, the agents movements and experience replay, the code that I had to create is the application of the neural network into Q-learning, the greedy-epsilon so that the agent is able to explore, the application of experience replay in order for the agent to store batch of data that can be send to the q-learning algorithm so it can map the state and action of the environment and therfor the value function can give an accurate probabilitic estimate to each action in each state.
 
 # Connect your learning from throughout this course to the larger field of computer science:
 ## What do computer scientists do and why does it matter?
